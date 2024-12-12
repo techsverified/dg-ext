@@ -1,2 +1,3 @@
 # dg-ext
-A functional side-panel extension that provides live transcription via DeepGram.
+
+A functional SDK-less, Proxy-less DeepGram solution for browsers is here.
