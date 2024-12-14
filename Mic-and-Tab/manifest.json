@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Mic / Tab Live Transcription Panel",
+  "description": "Live transcriptions of tab and microphone.",
+  "version": "1.0",
+  "permissions": [
+    "sidePanel",
+    "tabCapture",
+    "offscreen",
+    "activeTab",  
+    "storage",    
+    "webNavigation",
+    "sidePanel"
+  ],
+  "options_page": "options.html",
+  "content_security_policy": {
+    "script-src": "'self'",
+    "object-src": "'self'"
+  },
+  "side_panel": {
+    "default_path": "side-panel.html"
+  },
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
